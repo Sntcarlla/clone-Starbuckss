@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu {
+    width: 100%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre {
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -90px;
+    width: 510px; 
+    height: 1100px;
+    border-radius: 80%;
+    background-color: #017143;
+}
+
+.extras img {
+    width: 400px;
+    height: auto; 
+
+}
+
+.social-media {
+    position: fixed;
+    right: 20px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media img {
+    display: block;
+    width: 30px; 
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1); 
+}
+
+ .texto-sobre{
+    margin-top: 100px;
+
+ }
+ .texto-sobre h1{
+    font-size: 50px;
+ }
+ .texto-sobre p{
+    margin: 20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+ }
+
+ .texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer
+    ;
+
+
+ }
